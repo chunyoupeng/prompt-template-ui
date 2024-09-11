@@ -14,7 +14,7 @@ def generate_queries(template: str, **kwargs) -> str:
         query_prompt = ChatPromptTemplate.from_messages([
             ('human', template)
         ])
-        query_chain = query_prompt | ChatOpenAI(model="glm-4-plus", api_key=os.environ['ZHIPU_API_KEY'], base_url=os.environ['ZHIPU_API_BASE'])
+        query_chain = query_prompt | ChatOpenAI(model="glm-4-plus", api_key=os.environ['ZHIPU_API_KEY'], base_url=os.environ['ZHIPU_API_BASE'], max_tokens=4000)
         res = query_chain.invoke(kwargs)
         print(f"API Response: {res}")
         return res.content

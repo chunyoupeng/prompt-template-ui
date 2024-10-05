@@ -64,8 +64,7 @@ Prompt Template UI 是一款强大的工具，旨在提升提示模板的可视�
 1. 在 "Prompt Template" 文本框中输入您的提示模板，使用 `{variable}` 语法表示变量。
 2. 应用程序会自动为检测到的变量生成输入字段。
 3. 填写所有必要的变量值。
-4. 点击 "Generate Queries" 按钮。
-5. 生成的查询将显示在页面底部。
+4. 点击 "Generate Answer" 按钮。
 
 ## 贡献
 

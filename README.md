@@ -10,7 +10,6 @@ Prompt Template UI 是一款强大的工具，旨在提升提示模板的可视�
 - **实时反馈**：即时查看提示语修改的结果。
 
 通过提供可视化的解决方案，Prompt Template UI 极大地简化了提示模板的开发与优化过程，希望能够帮AI 开发者和研究人员在使用语言模型。
-; ![Query Generator Screenshot](path_to_screenshot.png)
 
 ## 功能特点
 
